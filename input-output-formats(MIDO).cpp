@@ -24,7 +24,7 @@ prev=0;
 FOR(n)
 {
     s(opt);
-    scanf("%d:%d",&h,&m);
+    scanf("%d:%d",&h,&m);//without string processing
     //h=(str[0]-'0')*10+(str[1]-'0');
     //m=(str[3]-'0')*10+(str[4]-'0');
         time=h*60+m;
@@ -69,7 +69,7 @@ sah[2]=sbh[2]=sam[2]=sbm[2]='\0';
 printf("%s:%s\n",sah,sam);
 printf("%s:%s\n",sbh,sbm);*/
 printf("%02d:%02d\n",ap/60,ap%60);
-printf("%02d:%02d\n",bp/60,bp%60);
+printf("%02d:%02d\n",bp/60,bp%60);// important
 
 return 0;
 }
