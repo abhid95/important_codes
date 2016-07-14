@@ -15,6 +15,7 @@ ld eval(ld tm) {
     z = tz + vz*tm;
     return sqrt((x)*(x) + (y)*(y) + (z)*(z));
 }
+
 int main() {
     cin>>t;
     for(_t = 1; _t <= t; _t++) {
